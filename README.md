@@ -1,30 +1,95 @@
-Windows Loader is a ready-to-use desktop AI assistant for Windows, built as a personal computer companion with a clean voice-first workflow and a minimal modern interface.
+# Windows Loader
 
-It works like a local smart desktop helper in the spirit of a personal assistant such as JARVIS: you launch it, keep it on screen, speak or type commands, and use it as a fast everyday companion for your PC. The system is already prepared and configured for immediate use, so you do not need to spend time on complex setup, backend wiring, or manual service integration.
+[English](#english) | [Русский](#русский)
 
-The assistant is designed to feel like a live presence on your desktop:
-- quick access on top of other windows
-- fast command input
-- voice interaction support
-- compact floating interface
-- account authorization and cloud profile support
-- polished installer and ready-to-run environment
+---
 
-Windows Loader is not just a demo shell or raw source project. It is packaged as a functional desktop loader with a prebuilt environment and a prepared workflow, intended for real end-user usage instead of manual developer assembly.
+## Русский
 
-What it is:
-- a personal AI desktop assistant
-- a smart helper for daily PC use
-- a lightweight floating companion for commands and interaction
-- a ready-to-launch assistant environment with core systems already connected
+Windows Loader — это готовый настольный ассистент для Windows, созданный в стиле персонального помощника наподобие JARVIS.
 
-What it is made for:
-- quick interaction with an AI assistant directly from the desktop
-- convenient voice and text control
-- always-available on-screen helper behavior
-- a smooth “assistant beside you” experience on Windows
+Это не просто заготовка или сырой проект для разработчиков. Это уже подготовленный desktop-лоадер с установленной логикой работы, аккуратным интерфейсом и базовой инфраструктурой, чтобы пользователь мог сразу запустить приложение и пользоваться им без долгой ручной настройки.
 
-Main idea:
-Windows Loader gives you a prepared desktop assistant experience without requiring you to build infrastructure by hand. The project is focused on convenience, presence, and usability, so most of the environment is already configured for you.
+В текущей версии Windows Loader — это именно голосовой и настольный помощник для ПК.
 
-If you want a desktop AI companion that feels closer to a personal assistant than a standard chat window, Windows Loader is built exactly for that purpose.
+### Что умеет текущая версия
+- работать как персональный помощник на рабочем столе Windows
+- принимать голосовые команды
+- помогать с управлением ПК через голосовые сценарии
+- предоставлять компактный и удобный интерфейс быстрого доступа
+- поддерживать профиль пользователя и авторизацию
+- работать как постоянный desktop companion, а не как обычное окно чата
+
+### Важно
+В этой версии еще **нет встроенной нейросети**.
+То есть сейчас Windows Loader — это не полноценный AI-чат-ассистент, а именно:
+- JARVIS-подобный помощник
+- голосовое управление
+- настольный инструмент-компаньон
+- основа для дальнейшего расширения
+
+### Для чего он нужен
+Windows Loader подойдет тем, кто хочет:
+- иметь помощника прямо на рабочем столе
+- запускать и использовать голосовые команды
+- получить ощущение “живого” ассистента на ПК
+- пользоваться уже подготовленной системой без долгой сборки вручную
+
+### Особенности
+- современный минималистичный интерфейс
+- установка через обычный setup-файл
+- готовая среда запуска
+- упор на удобство повседневного использования
+- уже настроенный базовый сценарий работы
+
+### Кому подойдет
+- пользователям Windows, которым нужен настольный помощник
+- тем, кому интересен JARVIS-стиль взаимодействия
+- тем, кто хочет голосовое управление ПК в удобной оболочке
+- тем, кто ищет готовый loader, а не сырой dev-проект
+
+---
+
+## English
+
+Windows Loader is a ready-to-use desktop assistant for Windows, designed in the style of a personal helper similar to JARVIS.
+
+This is not just a raw developer project or an unfinished prototype. It is a prepared desktop loader with an installed workflow, polished interface, and a ready-to-run environment so the user can launch it and start using it without complicated manual setup.
+
+In the current version, Windows Loader is focused on being a desktop companion and voice-based PC assistant.
+
+### What the current version does
+- works as a personal assistant on the Windows desktop
+- accepts voice commands
+- helps with PC control through voice-driven actions
+- provides a compact and convenient quick-access interface
+- supports user profile and authorization
+- behaves like a persistent desktop companion instead of a standard chat window
+
+### Important
+This version does **not include a built-in neural network yet**.
+At the moment, Windows Loader is primarily:
+- a JARVIS-style desktop assistant
+- a voice-control helper
+- a desktop companion tool
+- a base platform for future expansion
+
+### What it is for
+Windows Loader is made for people who want:
+- a desktop assistant always available on screen
+- voice command support
+- a “living assistant” feel on their PC
+- a prepared system without long manual setup
+
+### Features
+- modern minimal interface
+- standard setup-file installation
+- ready-to-run environment
+- focused on everyday usability
+- preconfigured core workflow
+
+### Who it is for
+- Windows users who want a desktop assistant
+- people interested in a JARVIS-like experience
+- users who want voice-based PC control in a convenient shell
+- anyone looking for a prepared loader instead of a raw development build
